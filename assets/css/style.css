@@ -1,0 +1,27 @@
+/*------------------------------ helper classes*/
+
+.testframe    {
+    border: 2px solid red;
+}
+
+.vhalign    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------------------------ welcomepage*/
+
+body {
+
+}
+.welcomeframe    {
+    width: 98%;
+    
+}
+
+.portrait    {
+    background-image: cover;
+    height: 200px;
+    
+}
