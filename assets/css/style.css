@@ -1,10 +1,10 @@
 /*------------------------------ helper classes*/
 
-.testframe    {
+.testframe {
     border: 2px solid red;
 }
 
-.vhalign    {
+.vhalign {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,15 +13,40 @@
 /*------------------------------ welcomepage*/
 
 body {
+    background: -webkit-linear-gradient(45deg, rgba(0, 46, 75, 1) 0.14%, rgba(0, 129, 182, 1) 99.61%);
+    background-size: 500% 500%;
+    -webkit-animation: Gradient 8s ease infinite;
 
 }
-.welcomeframe    {
+
+.welcomeframe {
     width: 98%;
-    
+    height: 400px;
+
 }
 
-.portrait    {
+.portrait {
     background-image: cover;
-    height: 200px;
-    
+    height: 300px;
+
+}
+
+.chk    {
+    height: 400px;
+}
+
+/*------------------------------------------ keyframes*/
+
+
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
