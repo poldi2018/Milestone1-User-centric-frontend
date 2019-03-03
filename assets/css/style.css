@@ -14,7 +14,7 @@
 /*------------------------------ welcomepage*/
 
 body {
-    background: -webkit-linear-gradient(45deg, rgba(0, 46, 75, 1) 0.14%, rgba(0,81,114,1) 99.61%);
+    background: -webkit-linear-gradient(45deg, rgba(0, 46, 75, 1) 0.14%, rgba(0, 81, 114, 1) 99.61%);
     background-size: 500% 500%;
     -webkit-animation: Bgr-body 12s ease infinite;
 }
@@ -40,16 +40,15 @@ body {
 
 /*------------------------------------------ fonts*/
 
-
 .orbitron {
     font-family: 'monoton', sans-serif;
     line-height: 1.0em;
-    font-size: 4em;
+    font-size: 2.5em;
     font-weight: 900;
     background: linear-gradient(rgba(250, 46, 75, 0.9), rgba(0, 129, 182, 0.9));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
 
 
 }
@@ -57,20 +56,19 @@ body {
 .mirrored {
     font-family: 'monoton', sans-serif;
     line-height: 1.0em;
-    font-size: 4em;
+    font-size: 2.5em;
     font-weight: 900;
     background: linear-gradient(rgba(250, 46, 75, 0.3), rgba(0, 129, 182, 0.3));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-transform: rotateX(180deg);
-    margin-top: -10px;
+    margin-top: -5px;
 
 
 
 }
 
 /*------------------------------------------ banner*/
-
 
 .banner-container {
     padding: 0;
@@ -110,6 +108,7 @@ body {
 
 
 
+
 }
 
 .listitems {
@@ -133,7 +132,7 @@ body {
 
 
 .letterC {
-    animation: letterCmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 2s;
+    animation: letterCmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
 
 
 
@@ -142,44 +141,61 @@ body {
 
 .letterH {
 
-    animation: letterHmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 2s;
+    animation: letterHmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
 
 }
 
 
 .letterR {
 
-    animation: letterRmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 2s;
+    animation: letterRmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
 
 }
 
 
 .letterO {
-    animation: letterOmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 2s;
+    animation: letterOmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
 }
 
 
 .letterN {
-    animation: letterNmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 2s;
+    animation: letterNmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
 
 }
 
 
 .letterI {
-    animation: letterImove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 2s;
+    animation: letterImove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
 
 }
 
 
 .letterX {
-    animation: letterXmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 2s;
+    animation: letterXmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
 }
 
 
 .letterX2 {
-    animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 2s;
+    animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
 
 }
+
+
+
+/*------------------------------------------ keyframes*/
+
+@-webkit-keyframes Bgr-body {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
 
 
 @keyframes fadeup {
@@ -233,7 +249,7 @@ body {
     69% {
         filter: blur(0px);
     }
-    
+
     70% {
         filter: blur(0px);
 
@@ -254,9 +270,6 @@ body {
     74% {
         filter: blur(0px);
     }
-    
-    
-    
 
     100% {
         opacity: 1.0;
@@ -275,12 +288,12 @@ body {
 
     50% {
         opacity: 1.0;
-        transform: translateX(-150px);
+        transform: translateX(-105px);
     }
 
     100% {
         opacity: 1.0;
-        transform: translateX(-150px);
+        transform: translateX(-105px);
     }
 
 }
@@ -295,12 +308,12 @@ body {
 
     50% {
         opacity: 1.0;
-        transform: translateX(-100px);
+        transform: translateX(-70px);
     }
 
     100% {
         opacity: 1.0;
-        transform: translateX(-100px);
+        transform: translateX(-70px);
     }
 
 
@@ -316,13 +329,13 @@ body {
 
     50% {
         opacity: 1.0;
-        transform: translateX(-50px);
+        transform: translateX(-35px);
 
     }
 
     100% {
         opacity: 1.0;
-        transform: translateX(-50px);
+        transform: translateX(-35px);
 
     }
 
@@ -332,18 +345,14 @@ body {
 
 @keyframes letterOmove {
 
-    0% {
-        transform: translateX(0px);
-    }
+    0% {}
 
     50% {
         opacity: 1.0;
-        transform: translateX(0px);
     }
 
     100% {
         opacity: 1.0;
-        transform: translateX(0px);
     }
 
 }
@@ -357,12 +366,12 @@ body {
 
     50% {
         opacity: 1.0;
-        transform: translateX(50px);
+        transform: translateX(35px);
     }
 
     100% {
         opacity: 1.0;
-        transform: translateX(50px);
+        transform: translateX(35px);
     }
 
 
@@ -377,12 +386,12 @@ body {
 
     50% {
         opacity: 1.0;
-        transform: translateX(85px);
+        transform: translateX(62px);
     }
 
     100% {
         opacity: 1.0;
-        transform: translateX(85px);
+        transform: translateX(62px);
     }
 
 }
@@ -396,12 +405,12 @@ body {
 
     50% {
         opacity: 1.0;
-        transform: translateX(120px);
+        transform: translateX(88px);
     }
 
     100% {
         opacity: 1.0;
-        transform: translateX(120px);
+        transform: translateX(88px);
     }
 
 
@@ -416,12 +425,12 @@ body {
 
     50% {
         opacity: 1.0;
-        transform: translateX(168px);
+        transform: translateX(120px);
     }
 
     100% {
         opacity: 1.0;
-        transform: translateX(168px);
+        transform: translateX(120px);
     }
 
 
@@ -499,23 +508,4 @@ body {
         filter: blur(2px);
     }
 
-}
-
-
-
-
-
-
-/*------------------------------------------ keyframes*/
-
-@-webkit-keyframes Bgr-body {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
 }
