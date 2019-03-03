@@ -11,13 +11,25 @@
     align-items: center;
 }
 
-/*------------------------------ welcomepage*/
+
+
+/*------------------------------ color definitions*/
 
 body {
     background: -webkit-linear-gradient(45deg, rgba(0, 46, 75, 1) 0.14%, rgba(0, 81, 114, 1) 99.61%);
     background-size: 500% 500%;
     -webkit-animation: Bgr-body 12s ease infinite;
 }
+
+.bg-color {
+
+    background: -webkit-linear-gradient(45deg, rgba(0, 46, 75, 1) 0.14%, rgba(0, 81, 114, 1) 99.61%);
+    background-size: 500% 500%;
+    -webkit-animation: Bgr-body 12s ease infinite;
+}
+
+
+/*------------------------------ welcomepage*/
 
 .welcomeframe {
     width: 98%;
@@ -34,38 +46,26 @@ body {
     width: 170px;
     height: 170px;
     border-radius: 50%;
-    border: 2px solid green;
+    border: 2px solid grey;
     background-size: 175px 219px;
     background-color: rgba(0, 46, 75, 0.8);
     mix-blend-mode: luminosity;
     background-repeat: no-repeat;
 
-    
+
 }
 
-.button-container > button {
+.button-container button {
     background: none;
     border-radius: 10px;
     border: 1px solid red;
     color: grey;
     width: 80px;
     height: 28px;
-    transition: color 0.6s ease-in-out;
     animation: pulse 8s infinite ease-in-out;
-    
+    transition: color 0.6s ease-in-out;
+
 }
-
-.button-container > button:hover {
-    color: beige;
-}
-
-
-@keyframes pulse     {
-0% {color: grey;}
-50% {color: red;}
-100% {color: grey;}
-}
-
 
 .button-container {
     padding-top: 30px;
@@ -74,10 +74,11 @@ body {
     justify-content: center;
 }
 
+
 /*------------------------------------------ fonts*/
 
 .orbitron {
-    
+    /*--------------------- banner font*/
     font-family: 'monoton', sans-serif;
     line-height: 1.0em;
     font-size: 5em;
@@ -89,6 +90,7 @@ body {
 }
 
 .mirrored {
+    /*---------- banner font*/
     font-family: 'monoton', sans-serif;
     line-height: 1.0em;
     font-size: 5em;
@@ -124,7 +126,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
 
 .list {
     padding: 0;
@@ -254,6 +255,18 @@ body {
     }
     100% {
         opacity: 1.0;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        color: beige;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: beige;
     }
 }
 
@@ -419,4 +432,66 @@ body {
     }
 }
 
+/*------------------------------------------ aboutpage*/
+
+.headerbar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 40px;
+    padding-top: 8px;
+
+
+}
+
+.menucontainer {
+    width: 95%;
+}
+
+.menulist {
+    padding: 0;
+
+}
+
+.menulistitem {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+
+#active-page {
+    color: red;
+
+}
+
+
+.menulistitem .hyperlinks {
+    color: beige;
+    text-decoration: none;
+    transition: color .6s ease-in-out;
+}
+
+
+.menulistitem:hover .hyperlinks {
+    color: red;
+}
+
+section {
+    padding-top: 60px;
+}
+
+
+
+
+
 /*------------------------------------------ experimental*/
+
+.section-content {
+    width: 100%;
+    border: 1px solid darkred;
+    border-radius: 8px;
+    height: 200px;
+    background: url(../images/stage2.jpg);
+}
