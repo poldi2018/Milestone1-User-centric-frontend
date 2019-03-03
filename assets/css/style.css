@@ -15,29 +15,28 @@
 body {
     background: -webkit-linear-gradient(45deg, rgba(0, 46, 75, 1) 0.14%, rgba(0, 129, 182, 1) 99.61%);
     background-size: 500% 500%;
-    -webkit-animation: Gradient 8s ease infinite;
-
+    -webkit-animation: Gradient 12s ease infinite;
 }
 
 .welcomeframe {
     width: 98%;
     height: 400px;
-
 }
 
 .portrait {
-    background-image: cover;
-    height: 300px;
-
+    background: url(../images/stage2.jpg);
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 2px solid green;
+    background-size: 175px 219px;
+    background-color: rgba(0, 46, 75, 0.8);
+    mix-blend-mode: luminosity;
+    background-repeat: no-repeat;
 }
 
-.chk    {
-    height: 400px;
-}
 
 /*------------------------------------------ keyframes*/
-
-
 
 @-webkit-keyframes Gradient {
     0% {
