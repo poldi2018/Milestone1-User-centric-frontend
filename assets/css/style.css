@@ -104,11 +104,6 @@ body {
     justify-content: center;
     align-items: center;
     animation: fadeup 2s 1 forwards;
-
-
-
-
-
 }
 
 .listitems {
@@ -116,8 +111,6 @@ body {
     margin: 0;
     border: 0px solid green;
     position: absolute;
-
-
 }
 
 .letterC,
@@ -133,23 +126,18 @@ body {
 
 .letterC {
     animation: letterCmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
-
-
-
 }
 
 
 .letterH {
 
     animation: letterHmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
-
 }
 
 
 .letterR {
 
     animation: letterRmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
-
 }
 
 
@@ -160,13 +148,11 @@ body {
 
 .letterN {
     animation: letterNmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
-
 }
 
 
 .letterI {
     animation: letterImove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
-
 }
 
 
@@ -177,9 +163,7 @@ body {
 
 .letterX2 {
     animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
-
 }
-
 
 
 /*------------------------------------------ keyframes*/
@@ -202,256 +186,176 @@ body {
     0% {
         opacity: 0.0;
     }
-
     50% {
         opacity: 1.0;
-
     }
-
     60% {
         filter: blur(0px);
-
     }
     61% {
         filter: blur(1px);
-
     }
     62% {
         filter: blur(2px);
     }
-
-
     63% {
         filter: blur(1px);
     }
-
     64% {
         filter: blur(0px);
     }
-
     65% {
         filter: blur(0px);
-
     }
     66% {
         filter: blur(1px);
-
     }
     67% {
         filter: blur(2px);
     }
-
-
     68% {
         filter: blur(1px);
     }
-
     69% {
         filter: blur(0px);
     }
-
     70% {
         filter: blur(0px);
-
     }
     71% {
         filter: blur(1px);
-
     }
     72% {
         filter: blur(2px);
     }
-
-
     73% {
         filter: blur(1px);
     }
-
     74% {
         filter: blur(0px);
     }
-
     100% {
         opacity: 1.0;
     }
-
 }
-
-
-
 
 @keyframes letterCmove {
-
     0% {
         transform: translateX(0px);
     }
-
     50% {
         opacity: 1.0;
         transform: translateX(-105px);
     }
-
     100% {
         opacity: 1.0;
         transform: translateX(-105px);
     }
-
 }
-
-
 
 @keyframes letterHmove {
-
     0% {
         transform: translateX(0px);
     }
-
     50% {
         opacity: 1.0;
         transform: translateX(-70px);
     }
-
     100% {
         opacity: 1.0;
         transform: translateX(-70px);
     }
-
-
 }
-
-
 
 @keyframes letterRmove {
-
     0% {
         transform: translateX(0px);
     }
-
     50% {
         opacity: 1.0;
         transform: translateX(-35px);
-
     }
-
     100% {
         opacity: 1.0;
         transform: translateX(-35px);
-
     }
-
-
 }
-
 
 @keyframes letterOmove {
-
     0% {}
-
     50% {
         opacity: 1.0;
     }
-
     100% {
         opacity: 1.0;
     }
-
 }
-
 
 @keyframes letterNmove {
-
     0% {
         transform: translateX(0px);
     }
-
     50% {
         opacity: 1.0;
         transform: translateX(35px);
     }
-
     100% {
         opacity: 1.0;
         transform: translateX(35px);
     }
-
-
 }
-
 
 @keyframes letterImove {
-
     0% {
         transform: translateX(0px);
     }
-
     50% {
         opacity: 1.0;
         transform: translateX(62px);
     }
-
     100% {
         opacity: 1.0;
         transform: translateX(62px);
     }
-
 }
-
 
 @keyframes letterXmove {
-
     0% {
         transform: translateX(0px);
     }
-
     50% {
         opacity: 1.0;
         transform: translateX(88px);
     }
-
     100% {
         opacity: 1.0;
         transform: translateX(88px);
     }
-
-
 }
-
 
 @keyframes letterX2move {
-
     0% {
         transform: translateX(0px);
     }
-
     50% {
         opacity: 1.0;
         transform: translateX(120px);
     }
-
     100% {
         opacity: 1.0;
         transform: translateX(120px);
     }
-
-
 }
 
-
 @keyframes dates1 {
-
-
     0% {
         opacity: 0.0;
         filter: blur(2px);
-
     }
-
     7% {
         opacity: 1.0;
         filter: blur(0px);
     }
-
-
     40% {
         opacity: 1.0;
         filter: blur(0px)
@@ -460,40 +364,29 @@ body {
         opacity: 1.0;
         filter: blur(1px);
     }
-
     50% {
         opacity: 0;
         filter: blur(2px);
     }
-
     100% {
         opacity: 0;
         filter: blur(2px);
     }
-
-
 }
 
 @keyframes dates2 {
-
-
     0% {
         opacity: 0.0;
         filter: blur(2px);
     }
-
-
     50% {
         opacity: 0.0;
         filter: blur(2px);
-
     }
-
     57% {
         opacity: 1.0;
         filter: blur(0px);
     }
-
     90% {
         opacity: 1.0;
         filter: blur(0px);
@@ -502,10 +395,8 @@ body {
         opacity: 1.0;
         filter: blur(1px);
     }
-
     100% {
         opacity: 0;
         filter: blur(2px);
     }
-
 }
