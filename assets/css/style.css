@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.halign    {
+    display: flex;
+    justify-content: center;
+}
 
 
 /*------------------------------ color definitions*/
@@ -27,6 +31,46 @@ body {
     background-size: 500% 500%;
     -webkit-animation: Bgr-body 12s ease infinite;
 }
+
+
+/*------------------------------------------ fonts*/
+
+.orbitron {
+    /*--------------------- banner font*/
+    font-family: 'monoton', sans-serif;
+    line-height: 1.0em;
+    font-size: 4em;
+    font-weight: 900;
+    background: linear-gradient(rgba(250, 46, 75, 0.9), rgba(0, 129, 182, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: -5px;
+}
+
+.mirrored {
+    /*---------- banner font*/
+    font-family: 'monoton', sans-serif;
+    line-height: 1.0em;
+    font-size: 4em;
+    font-weight: 900;
+    background: linear-gradient(rgba(250, 46, 75, 0.3), rgba(0, 129, 182, 0.3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transform: rotateX(180deg);
+    margin-top: -5px;
+}
+
+.headline    {
+    background-color: grey;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    height: 35px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
 
 
 /*------------------------------ welcomepage*/
@@ -75,32 +119,6 @@ body {
 }
 
 
-/*------------------------------------------ fonts*/
-
-.orbitron {
-    /*--------------------- banner font*/
-    font-family: 'monoton', sans-serif;
-    line-height: 1.0em;
-    font-size: 5em;
-    font-weight: 900;
-    background: linear-gradient(rgba(250, 46, 75, 0.9), rgba(0, 129, 182, 0.9));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: -5px;
-}
-
-.mirrored {
-    /*---------- banner font*/
-    font-family: 'monoton', sans-serif;
-    line-height: 1.0em;
-    font-size: 5em;
-    font-weight: 900;
-    background: linear-gradient(rgba(250, 46, 75, 0.3), rgba(0, 129, 182, 0.3));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-transform: rotateX(180deg);
-    margin-top: -5px;
-}
 
 /*------------------------------------------ banner*/
 
@@ -156,36 +174,30 @@ body {
 
 
 .letterC {
-    animation: letterCmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
+    animation: letterCmove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;
 }
 
 .letterH {
-    animation: letterHmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
+    animation: letterHmove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;
 }
 
 .letterR {
-    animation: letterRmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
-}
+animation: letterRmove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;}
 
 .letterO {
-    animation: letterOmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
-}
+animation: letterOmove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;}
 
 .letterN {
-    animation: letterNmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
-}
+animation: letterNmove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;}
 
 .letterI {
-    animation: letterImove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
-}
+animation: letterImove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;}
 
 .letterX {
-    animation: letterXmove 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
-}
+animation: letterXmove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;}
 
 .letterX2 {
-    animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) infinite alternate forwards 1s;
-}
+animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;}
 
 /*------------------------------------------ keyframes*/
 
@@ -276,11 +288,11 @@ body {
     }
     50% {
         opacity: 1.0;
-        transform: translateX(-180px);
+        transform: translateX(-150px);
     }
     100% {
         opacity: 1.0;
-        transform: translateX(-180px);
+        transform: translateX(-150px);
     }
 }
 
@@ -290,11 +302,11 @@ body {
     }
     50% {
         opacity: 1.0;
-        transform: translateX(-120px);
+        transform: translateX(-100px);
     }
     100% {
         opacity: 1.0;
-        transform: translateX(-120px);
+        transform: translateX(-100px);
     }
 }
 
@@ -304,11 +316,11 @@ body {
     }
     50% {
         opacity: 1.0;
-        transform: translateX(-60px);
+        transform: translateX(-50px);
     }
     100% {
         opacity: 1.0;
-        transform: translateX(-60px);
+        transform: translateX(-50px);
     }
 }
 
@@ -328,11 +340,11 @@ body {
     }
     50% {
         opacity: 1.0;
-        transform: translateX(60px);
+        transform: translateX(50px);
     }
     100% {
         opacity: 1.0;
-        transform: translateX(60px);
+        transform: translateX(50px);
     }
 }
 
@@ -342,11 +354,11 @@ body {
     }
     50% {
         opacity: 1.0;
-        transform: translateX(102px);
+        transform: translateX(85px);
     }
     100% {
         opacity: 1.0;
-        transform: translateX(102px);
+        transform: translateX(85px);
     }
 }
 
@@ -356,11 +368,11 @@ body {
     }
     50% {
         opacity: 1.0;
-        transform: translateX(145px);
+        transform: translateX(120px);
     }
     100% {
         opacity: 1.0;
-        transform: translateX(145px);
+        transform: translateX(120px);
     }
 }
 
@@ -370,11 +382,11 @@ body {
     }
     50% {
         opacity: 1.0;
-        transform: translateX(205px);
+        transform: translateX(160px);
     }
     100% {
         opacity: 1.0;
-        transform: translateX(205px);
+        transform: translateX(160px);
     }
 }
 
@@ -432,45 +444,46 @@ body {
     }
 }
 
-/*------------------------------------------ aboutpage*/
+/*------------------------------------------ headerbar*/
 
 .headerbar {
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    height: 40px;
-    padding-top: 8px;
-
-
+    height: 70px;
 }
 
 .menucontainer {
-    width: 95%;
+    width: 100%;
+}
+
+.header-container    {
+    width: 100%;
 }
 
 .menulist {
     padding: 0;
-
 }
 
 .menulistitem {
     display: inline-block;
     padding-left: 20px;
-    padding-right: 20px
+    padding-right: 20px;
+     border: 1px solid grey;
+    border-radius: 4px;
 }
-
 
 #active-page {
     color: red;
-
 }
-
 
 .menulistitem .hyperlinks {
     color: beige;
     text-decoration: none;
     transition: color .6s ease-in-out;
+    font-family: "Exo", sans serif;
+    font-size: 14px;
 }
 
 
@@ -478,20 +491,97 @@ body {
     color: red;
 }
 
+.beam {
+ 
+    padding: 0px;
+    height: 1px;
+    border-radius: 0px 2px 2px 0px;
+    color: #fff;
+    /*background: linear-gradient(-45deg, #EE7752, #e6f2ff, #23A6D5, #23D5AB);
+	background:repeating-linear-gradient(91deg, rgba(64,174,208,1) 0.00%, rgba(178,232,249,1) 40.57%, rgba(40,162,244,1) 99.96% );
+	background:linear-gradient(90deg, rgba(42,205,255,1) 47.05%, rgba(231,249,255,1) 54.00%, rgba(42,205,255,1) 61.44% );*/
+    background: linear-gradient(90deg, rgba(26, 178, 225, 1) 47.05%, rgba(231, 249, 255, 1) 54.00%, rgba(26, 178, 225, 1) 61.44%);
+    background-size: 300% 300%;
+    animation: Bgr-body 15s ease infinite alternate;
+}
+
+/*------------------------------------------ aboutpage*/
+
 section {
-    padding-top: 60px;
+    padding-top: 70px;
 }
 
 
+
+
+/*------------------------------------------ tour*/
+
+
+.section-content {
+
+    width: 100%;
+    border: 1px solid darkred;
+    border-radius: 8px;
+    height: 300px;
+    background: url(../images/stage2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+
+.datescontainer {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    color: beige;
+    display: block;
+    justify-content: center;
+
+    
+    
+}
+
+#datesindex    {
+
+    color: lightblue;
+    font-size: 10px;
+    border-radius: 4px;
+    background-color: grey;
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+}
+
+.datesbox {
+    width: 200px;
+    text-align: center;
+}
+
+.dates1 {
+    position: absolute;
+    width: 200px;
+    animation: dates1 12s infinite linear;
+}
+
+.dates2 {
+    position: absolute;
+    width: 200px;
+    animation: dates2 12s infinite linear;
+
+}
+
+.tourdates    {
+    padding: 0;
+    width: 140px;
+}
+
+.stations    {
+    list-style: none;
+    padding: 0;
+}
 
 
 
 /*------------------------------------------ experimental*/
-
-.section-content {
-    width: 100%;
-    border: 1px solid darkred;
-    border-radius: 8px;
-    height: 200px;
-    background: url(../images/stage2.jpg);
-}
