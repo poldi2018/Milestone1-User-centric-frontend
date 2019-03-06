@@ -24,6 +24,10 @@ section {
     padding-top: 120px;
 }
 
+.section-content    {
+    
+}
+
 .row-content{
      height: 350px;
 }
@@ -148,11 +152,11 @@ a button {
 
 .portrait {
     background: url(../images/stage2.jpg);
-    width: 170px;
-    height: 170px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 2px solid grey;
-    background-size: 175px 219px;
+    background-size: 250px 313px;
     background-color: rgba(0, 46, 75, 0.8);
     mix-blend-mode: luminosity;
     background-repeat: no-repeat;
