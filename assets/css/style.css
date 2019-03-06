@@ -604,11 +604,13 @@ a button {
     text-decoration: none;
 }
 
-.sociallinks a {
+.socialicons a:hover,
+.socialicons a:visited, 
+.socialicons a:link, 
+.socialicons a:active {
     text-decoration: none;
 }
 
-.sociallinks a:hover {}
 
 .footer-container {
     display: block;
@@ -632,8 +634,6 @@ a button {
     background-color: rgba(52, 57, 63, 0.4);
     background-blend-mode: multiply;
 }
-
-
 
 
 .about-pictureright {
