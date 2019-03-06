@@ -21,7 +21,7 @@
 /*------------------------------ general adaptations*/
 
 section {
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .section-content    {
@@ -120,7 +120,7 @@ body {
 
 h2 {
     font-family: "Fredoka One", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 100;
     color: lightgreen;
 }
@@ -583,7 +583,7 @@ a button {
 .socialicons {
     list-style: none;
     display: inline-block;
-    padding: 2px;
+    padding: 6px;
 }
 
 .sociallinks i {
@@ -617,7 +617,7 @@ a button {
     border: 1px solid beige;
     color: grey;
     width: 160px;
-    height: 20px;
+    height: 24px;
     transition: color .8s ease-in-out;
 }
 
@@ -741,6 +741,15 @@ a button {
 
 /*------------------------------------------ audio page*/
 
+.bg-audio-pictureleft {
+    background: url(../images/stage2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
 .bg-audiosection-content {
     background: url(../images/stage2.jpg);
     background-repeat: no-repeat;
@@ -750,9 +759,43 @@ a button {
     background-blend-mode: multiply;
 }
 
-
+.bg-audio-pictureright {
+    background: url(../images/stage2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
 
 /*------------------------------------------ concerts page*/
+
+.bg-concerts-pictureleft {
+    background: url(../images/stage2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+.bg-concertssection-content {
+    background: url(../images/stage2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+.bg-concerts-pictureright {
+    background: url(../images/stage2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
 
 /*------------------------------------------ experimental*/
 
