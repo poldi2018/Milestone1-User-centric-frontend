@@ -11,9 +11,29 @@
     align-items: center;
 }
 
-.halign    {
+.halign {
     display: flex;
     justify-content: center;
+}
+
+
+
+/*------------------------------ general adaptations*/
+
+section {
+    padding-top: 120px;
+}
+
+.row-content{
+     height: 350px;
+}
+
+.row-footer    {
+    height: 100px;
+}
+
+.min-height {
+    height: 300px;
 }
 
 
@@ -39,7 +59,7 @@ body {
 .bannerfont {
     /*--------------------- bannerfont*/
     font-family: 'monoton', sans-serif;
-    line-height: 1.0em;
+    line-height: 0.95em;
     font-size: 4em;
     font-weight: 900;
     background: linear-gradient(rgba(250, 46, 75, 0.9), rgba(0, 129, 182, 0.9));
@@ -51,7 +71,7 @@ body {
 .mirrored {
     /*---------- bannerfont*/
     font-family: 'monoton', sans-serif;
-    line-height: 1.0em;
+    line-height: 0.95em;
     font-size: 4em;
     font-weight: 900;
     background: linear-gradient(rgba(250, 46, 75, 0.3), rgba(0, 129, 182, 0.3));
@@ -61,7 +81,7 @@ body {
     margin-top: -5px;
 }
 
-.headline    {
+.headline {
     background-color: grey;
     border-radius: 4px;
     font-family: "Exo", sans-serif;
@@ -73,15 +93,48 @@ body {
 }
 
 
+#abouttextfont {
+    font-family: "Orbitron", sans-serif;
+    color: beige;
+    font-size: 14px;
+    font-weight: 100;
+
+
+}
+
+
+.footerfont {
+
+    font-family: "Fredoka One", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: "Fredoka One", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: lightgreen;
+
+}
+
+
+
+a button {
+    font-family: "Orbitron", sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-top: 4px;
+    text-align: center;
+
+
+}
+
 
 /*------------------------------ welcomepage*/
 
 .welcomeframe {
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
+    height: 70vh;
 
 }
 
@@ -107,12 +160,12 @@ body {
     width: 80px;
     height: 28px;
     animation: pulse 8s infinite ease-in-out;
-    transition: color 0.6s ease-in-out;
+    transition: color .8s ease-in-out;
 
 }
 
 .button-container {
-    padding-top: 30px;
+
     width: 80%;
     display: flex;
     justify-content: center;
@@ -127,12 +180,12 @@ body {
 /*------------------------------------------ banner*/
 
 .banner-container {
-    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin: 0;
     border: 0px solid lightgreen;
     border-radius: 15px 15px;
     width: 100%;
-    height: 200px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -141,9 +194,8 @@ body {
 }
 
 .letterbox {
-    margin-top: 40px;
     width: 400px;
-    height: 100px;
+    height: 110px;
     border: 0px solid red;
     display: flex;
     justify-content: center;
@@ -152,11 +204,12 @@ body {
 .list {
     padding: 0;
     margin: 0;
+    opacity: 0;
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fadeup 2s 1 forwards;
+    animation: fadeup 2s 1s 1 forwards;
 }
 
 .listitems {
@@ -178,30 +231,36 @@ body {
 
 
 .letterC {
-    animation: letterCmove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;
+    animation: letterCmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
 }
 
 .letterH {
-    animation: letterHmove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;
+    animation: letterHmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
 }
 
 .letterR {
-animation: letterRmove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;}
+    animation: letterRmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
 
 .letterO {
-animation: letterOmove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;}
+    animation: letterOmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
 
 .letterN {
-animation: letterNmove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;}
+    animation: letterNmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
 
 .letterI {
-animation: letterImove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;}
+    animation: letterImove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
 
 .letterX {
-animation: letterXmove 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;}
+    animation: letterXmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
 
 .letterX2 {
-animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;}
+    animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
 
 /*------------------------------------------ keyframes*/
 
@@ -462,7 +521,7 @@ animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;
     width: 100%;
 }
 
-.header-container    {
+.header-container {
     width: 100%;
 }
 
@@ -472,10 +531,10 @@ animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;
 
 .menulistitem {
     display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
-     border: 1px solid grey;
-    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid grey;
+    border-radius: 20px;
 }
 
 #active-page {
@@ -486,9 +545,11 @@ animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;
     color: beige;
     text-decoration: none;
     transition: color .6s ease-in-out;
-    font-family: "Exo", sans serif;
+    font-family: "Alfa Slab One", sans serif;
     font-size: 14px;
+    font-weight: 100;
 }
+
 
 
 .menulistitem:hover .hyperlinks {
@@ -496,7 +557,7 @@ animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;
 }
 
 .beam {
- 
+
     padding: 0px;
     height: 1px;
     border-radius: 0px 2px 2px 0px;
@@ -509,27 +570,122 @@ animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 1s alternate 3 forwards;
     animation: Bgr-body 15s ease infinite alternate;
 }
 
+
+/*------------------------------------------ footer*/
+
+.socialpanel {
+    padding: 0px;
+}
+
+.socialicons {
+    list-style: none;
+    display: inline-block;
+    padding: 4px;
+}
+
+.sociallinks i {
+
+    width: 30px;
+    height: 30px;
+    background-color: lightgrey;
+    color: #008ae6;
+    border-radius: 50%;
+    transition: color 0.35s ease-in-out;
+}
+
+.sociallinks i:hover {
+
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.sociallinks a:hover {}
+
+.footer-container {
+    display: block;
+
+}
+
+
 /*------------------------------------------ aboutpage*/
 
-section {
-    padding-top: 70px;
+.about-pictureleft {
+
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid darkred;
+    border-radius: 8px;
+    height: 300px;
+    background: url(../images/about-pictureleft.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
 }
 
 
 
 
+.about-pictureright {
+
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid darkred;
+    border-radius: 8px;
+    height: 300px;
+    background: url(../images/about-pictureright.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+
+.aboutsection-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 300px;
+    background-color: rgba(180, 180, 180, 0.2);
+    border: 1px solid darkred;
+    border-radius: 8px;
+    height: 300px;
+    padding-bottom: 20px;
+    background: url(../images/about-pictureright.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+
+.abouttext {
+    width: 200px;
+    height: 200px;
+}
+
+
 /*------------------------------------------ tour*/
 
+.toursection-content {
 
-.section-content {
-
-    width: 100%;
+    width: 80%;
+    max-width: 300px;
     border: 1px solid darkred;
     border-radius: 8px;
     height: 300px;
     background: url(../images/stage2.jpg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
+    background-size: 800px 1000px;
     background-color: rgba(52, 57, 63, 0.4);
     background-blend-mode: multiply;
 }
@@ -541,13 +697,12 @@ section {
     border-radius: 4px;
     color: beige;
     display: block;
-    justify-content: center;
 
-    
-    
+
+
 }
 
-#datesindex    {
+#datesindex {
 
     color: lightblue;
     font-size: 10px;
@@ -561,6 +716,8 @@ section {
 .datesbox {
     width: 200px;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .dates1 {
@@ -573,19 +730,30 @@ section {
     position: absolute;
     width: 200px;
     animation: dates2 12s infinite linear;
-
 }
 
-.tourdates    {
+.tourdates {
     padding: 0;
     width: 140px;
 }
 
-.stations    {
+.stations {
     list-style: none;
-    padding: 0;font-family: "Exo", sans-serif;
+    padding: 0;
+    font-family: "Exo", sans-serif;
 }
 
 
 
+
+/*------------------------------------------ contact page*/
+
+/*------------------------------------------ concerts page*/
+
 /*------------------------------------------ experimental*/
+
+.testdiv {
+    background-color: beige;
+    height: 400px;
+    width: 400px;
+}
