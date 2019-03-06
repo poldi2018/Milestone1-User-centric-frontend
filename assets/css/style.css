@@ -675,6 +675,9 @@ a button {
 .abouttext {
     width: 200px;
     height: 200px;
+    overflow: auto;
+    padding: 0;
+    
 }
 
 
