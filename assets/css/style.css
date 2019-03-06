@@ -131,6 +131,14 @@ a button {
 }
 
 
+.menulistitem .hyperlinks {
+    font-family: "Alfa Slab One", sans serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+
 /*------------------------------ welcomepage*/
 
 .welcomeframe {
@@ -545,9 +553,6 @@ a button {
     color: beige;
     text-decoration: none;
     transition: color .6s ease-in-out;
-    font-family: "Alfa Slab One", sans serif;
-    font-size: 14px;
-    font-weight: 100;
 }
 
 
