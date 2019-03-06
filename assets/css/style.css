@@ -26,6 +26,12 @@ section {
 
 .section-content    {
     
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid darkred;
+    border-radius: 8px;
+    height: 300px;
+    
 }
 
 .row-content{
@@ -56,6 +62,8 @@ body {
     background-size: 500% 500%;
     -webkit-animation: Bgr-body 12s ease infinite;
 }
+
+
 
 
 /*------------------------------------------ fonts*/
@@ -96,16 +104,12 @@ body {
     margin-bottom: 10px;
 }
 
-
 #abouttextfont {
     font-family: "Orbitron", sans-serif;
     color: beige;
     font-size: 14px;
     font-weight: 100;
-
-
 }
-
 
 .footerfont {
 
@@ -119,10 +123,7 @@ h2 {
     font-size: 14px;
     font-weight: 100;
     color: lightgreen;
-
 }
-
-
 
 a button {
     font-family: "Orbitron", sans-serif;
@@ -130,10 +131,7 @@ a button {
     font-weight: bolder;
     padding-top: 4px;
     text-align: center;
-
-
 }
-
 
 .menulistitem .hyperlinks {
     font-family: "Alfa Slab One", sans serif;
@@ -141,13 +139,10 @@ a button {
     font-weight: 100;
 }
 
-
-
 /*------------------------------ welcomepage*/
 
 .welcomeframe {
     height: 70vh;
-
 }
 
 .portrait {
@@ -160,8 +155,6 @@ a button {
     background-color: rgba(0, 46, 75, 0.8);
     mix-blend-mode: luminosity;
     background-repeat: no-repeat;
-
-
 }
 
 .button-container button {
@@ -183,11 +176,9 @@ a button {
     justify-content: center;
 }
 
-
 .hyperlinks:hover button {
     color: red;
 }
-
 
 /*------------------------------------------ banner*/
 
@@ -240,7 +231,6 @@ a button {
 .letterX2 {
     opacity: 0;
 }
-
 
 .letterC {
     animation: letterCmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
@@ -559,8 +549,6 @@ a button {
     transition: color .6s ease-in-out;
 }
 
-
-
 .menulistitem:hover .hyperlinks {
     color: red;
 }
@@ -579,7 +567,6 @@ a button {
     animation: Bgr-body 15s ease infinite alternate;
 }
 
-
 /*------------------------------------------ footer*/
 
 .socialpanel {
@@ -593,7 +580,6 @@ a button {
 }
 
 .sociallinks i {
-
     width: 30px;
     height: 30px;
     background-color: lightgrey;
@@ -603,7 +589,6 @@ a button {
 }
 
 .sociallinks i:hover {
-
     color: lightgreen;
     text-decoration: none;
 }
@@ -615,22 +600,13 @@ a button {
     text-decoration: none;
 }
 
-
 .footer-container {
     display: block;
-
 }
-
 
 /*------------------------------------------ aboutpage*/
 
-.about-pictureleft {
-
-    width: 80%;
-    max-width: 300px;
-    border: 1px solid darkred;
-    border-radius: 8px;
-    height: 300px;
+.bg-about-pictureleft {
     background: url(../images/about-pictureleft.jpg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
@@ -639,14 +615,7 @@ a button {
     background-blend-mode: multiply;
 }
 
-
-.about-pictureright {
-
-    width: 80%;
-    max-width: 300px;
-    border: 1px solid darkred;
-    border-radius: 8px;
-    height: 300px;
+.bg-about-pictureright {
     background: url(../images/about-pictureright.jpg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
@@ -655,18 +624,8 @@ a button {
     background-blend-mode: multiply;
 }
 
-
-.aboutsection-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    max-width: 300px;
+.bg-aboutsection-content {
     background-color: rgba(180, 180, 180, 0.2);
-    border: 1px solid darkred;
-    border-radius: 8px;
-    height: 300px;
-    padding-bottom: 20px;
     background: url(../images/about-pictureright.jpg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
@@ -674,26 +633,17 @@ a button {
     background-color: rgba(52, 57, 63, 0.4);
     background-blend-mode: multiply;
 }
-
 
 .abouttext {
     width: 200px;
     height: 200px;
     overflow: auto;
     padding: 0;
-    
 }
-
 
 /*------------------------------------------ tour*/
 
-.toursection-content {
-
-    width: 80%;
-    max-width: 300px;
-    border: 1px solid darkred;
-    border-radius: 8px;
-    height: 300px;
+.bg-tour-pictureleft {
     background: url(../images/stage2.jpg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
@@ -702,6 +652,23 @@ a button {
     background-blend-mode: multiply;
 }
 
+.bg-toursection-content {
+    background: url(../images/stage2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+.bg-tour-pictureright {
+    background: url(../images/stage2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
 
 .datescontainer {
     width: 200px;
@@ -709,13 +676,9 @@ a button {
     border-radius: 4px;
     color: beige;
     display: block;
-
-
-
 }
 
 #datesindex {
-
     color: lightblue;
     font-size: 10px;
     border-radius: 4px;
@@ -754,9 +717,6 @@ a button {
     padding: 0;
     font-family: "Exo", sans-serif;
 }
-
-
-
 
 /*------------------------------------------ contact page*/
 
