@@ -139,10 +139,20 @@ a button {
     font-weight: 100;
 }
 
+.intropage-backlinkbutton-container .hyperlinks button {
+    
+    font-family: "Orbitron", sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    padding-top: 4px;
+    text-align: center;
+    
+}
+
 /*------------------------------ welcomepage*/
 
 .welcomeframe {
-    height: 70vh;
+    height: 60vh;
 }
 
 .portrait {
@@ -170,10 +180,7 @@ a button {
 }
 
 .button-container {
-
     width: 80%;
-    display: flex;
-    justify-content: center;
 }
 
 .hyperlinks:hover button {
@@ -576,7 +583,7 @@ a button {
 .socialicons {
     list-style: none;
     display: inline-block;
-    padding: 4px;
+    padding: 2px;
 }
 
 .sociallinks i {
@@ -602,6 +609,20 @@ a button {
 
 .footer-container {
     display: block;
+}
+
+.intropage-backlinkbutton-container button {
+    background: none;
+    border-radius: 10px;
+    border: 1px solid beige;
+    color: grey;
+    width: 160px;
+    height: 20px;
+    transition: color .8s ease-in-out;
+}
+
+.intropage-backlinkbutton-container:hover button {
+    color: red;
 }
 
 /*------------------------------------------ aboutpage*/
