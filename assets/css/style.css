@@ -739,7 +739,18 @@ a button {
     font-family: "Exo", sans-serif;
 }
 
-/*------------------------------------------ contact page*/
+/*------------------------------------------ audio page*/
+
+.bg-audiosection-content {
+    background: url(../images/stage2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+
 
 /*------------------------------------------ concerts page*/
 
