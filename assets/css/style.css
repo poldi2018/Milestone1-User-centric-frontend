@@ -22,7 +22,7 @@ section {
     padding-top: 100px;
 }
 
-.section-content    {
+.section-content {
     width: 100%;
     max-width: 370px;
     border: 1px solid darkred;
@@ -30,11 +30,11 @@ section {
     height: 350px;
 }
 
-.row-content{
-     height: 350px;
+.row-content {
+    height: 350px;
 }
 
-.row-footer    {
+.row-footer {
     height: 100px;
 }
 
@@ -86,14 +86,16 @@ body {
 }
 
 .headline {
-    background-color: rgba(128,128,128, 0.3);
+    background-color: rgba(128, 128, 128, 0.3);
     border-radius: 4px;
-    font-family: "Exo", sans-serif;
-    font-size: 22px;
-    font-weight: 300;
     height: 35px;
     padding: 0;
     margin-bottom: 10px;
+    font-family: "Exo", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: beige;
+
 }
 
 #abouttextfont {
@@ -103,7 +105,7 @@ body {
     font-weight: 100;
 }
 
-#abouttextfont::first-letter    {
+#abouttextfont::first-letter {
     font-weight: bold;
     font-size: 24px;
     color: darkred;
@@ -139,13 +141,13 @@ a button {
 }
 
 .intropage-backlinkbutton-container .hyperlinks button {
-    
+
     font-family: "Orbitron", sans-serif;
     font-size: 12px;
     font-weight: bolder;
     padding-top: 4px;
     text-align: center;
-    
+
 }
 
 /*------------------------------ welcomepage*/
@@ -602,8 +604,8 @@ a button {
 }
 
 .socialicons a:hover,
-.socialicons a:visited, 
-.socialicons a:link, 
+.socialicons a:visited,
+.socialicons a:link,
 .socialicons a:active {
     text-decoration: none;
 }
@@ -770,6 +772,24 @@ a button {
     background-blend-mode: multiply;
 }
 
+.audiofile-container {
+
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    border: 1px solid darkred;
+    border-radius: 8px;
+}
+
+
+#concerts-iframe {
+    border: 1px solid darkred;
+    border-radius: 8px;
+    width: 150px;
+    height: 100px;
+}
+
+
 /*------------------------------------------ concerts page*/
 
 .bg-concerts-pictureleft {
@@ -797,6 +817,23 @@ a button {
     background-size: 800px 1000px;
     background-color: rgba(52, 57, 63, 0.4);
     background-blend-mode: multiply;
+}
+
+.concerts-container {
+
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    border: 1px solid darkred;
+    border-radius: 8px;
+}
+
+
+#concerts-iframe {
+    border: 1px solid darkred;
+    border-radius: 8px;
+    width: 85%;
+    height: 100px;
 }
 
 /*------------------------------------------ experimental*/
