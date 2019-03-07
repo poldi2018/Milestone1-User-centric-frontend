@@ -89,13 +89,38 @@ body {
     background-color: rgba(128, 128, 128, 0.3);
     border-radius: 4px;
     height: 35px;
-    padding: 0;
+    padding: 5px;
     margin-bottom: 10px;
     font-family: "Exo", sans-serif;
     font-size: 22px;
     font-weight: 300;
     color: beige;
 
+}
+
+.audioheadline {
+    background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 4px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: lightblue;
+
+}
+
+.concertsheadline {
+    background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 4px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: lightblue;
 }
 
 #abouttextfont {
@@ -110,7 +135,6 @@ body {
     font-size: 24px;
     color: darkred;
 }
-
 
 .footerfont {
 
@@ -777,18 +801,8 @@ a button {
     width: 300px;
     height: 300px;
     padding: 0;
-    border: 1px solid darkred;
     border-radius: 8px;
 }
-
-
-#concerts-iframe {
-    border: 1px solid darkred;
-    border-radius: 8px;
-    width: 150px;
-    height: 100px;
-}
-
 
 /*------------------------------------------ concerts page*/
 
@@ -824,7 +838,6 @@ a button {
     width: 300px;
     height: 300px;
     padding: 0;
-    border: 1px solid darkred;
     border-radius: 8px;
 }
 
@@ -832,7 +845,7 @@ a button {
 #concerts-iframe {
     border: 1px solid darkred;
     border-radius: 8px;
-    width: 85%;
+    width: 100%;
     height: 100px;
 }
 
