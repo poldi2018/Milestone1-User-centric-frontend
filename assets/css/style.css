@@ -164,7 +164,7 @@ a button {
     background-color: rgba(0, 46, 75, 0.8);
     mix-blend-mode: luminosity;
     background-repeat: no-repeat;
-    -webkit-box-shadow: 6px 6px 70px 2px #ccc;
+    -webkit-box-shadow: 3px 3px 20px 2px #ccc;
 }
 
 .button-container button {
@@ -190,7 +190,7 @@ a button {
 /*------------------------------------------ banner*/
 
 .banner-container {
-    padding-top: 15px;
+    padding-top: 35px;
     padding-bottom: 15px;
     margin: 0;
     border: 0px solid lightgreen;
