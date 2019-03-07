@@ -164,6 +164,7 @@ a button {
     background-color: rgba(0, 46, 75, 0.8);
     mix-blend-mode: luminosity;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 6px 6px 70px 2px #ccc;
 }
 
 .button-container button {
