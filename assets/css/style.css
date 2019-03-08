@@ -30,6 +30,25 @@ section {
     height: 350px;
 }
 
+.outersection-content {
+    width: 100%;
+    max-width: 370px;
+    border: 1px solid darkred;
+    border-radius: 8px;
+    height: 480px;
+}
+
+.visusalsection-content {
+    width: 90%;
+    border: 1px solid darkred;
+    border-radius: 8px;
+    height: 400px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
 .row-content {
     height: 350px;
 }
@@ -111,7 +130,7 @@ body {
 
 }
 
-.concertsheadline {
+.visualsheadline {
     background-color: rgba(128, 128, 128, 0.3);
     border-radius: 4px;
     height: 35px;
@@ -171,6 +190,7 @@ a button {
     font-weight: bolder;
     padding-top: 4px;
     text-align: center;
+    width: 180px;
 
 }
 
@@ -636,6 +656,8 @@ a button {
 
 .footer-container {
     display: block;
+    padding-bottom: 10px;
+    width: 100%;
 }
 
 .intropage-backlinkbutton-container button {
@@ -648,7 +670,7 @@ a button {
     transition: color .8s ease-in-out;
 }
 
-.intropage-backlinkbutton-container:hover button {
+.intropage-backlinkbutton-container button:hover {
     color: red;
 }
 
@@ -657,7 +679,7 @@ a button {
 .bg-about-pictureleft {
     background: url(../images/about-pictureleft.jpg);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
+    background-position: -210px 0px;
     background-size: 800px 1000px;
     background-color: rgba(52, 57, 63, 0.4);
     background-blend-mode: multiply;
@@ -666,7 +688,7 @@ a button {
 .bg-about-pictureright {
     background: url(../images/about-pictureright.jpg);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
+    background-position: -250px -100px;
     background-size: 800px 1000px;
     background-color: rgba(52, 57, 63, 0.4);
     background-blend-mode: multiply;
@@ -689,12 +711,12 @@ a button {
     padding: 0;
 }
 
-/*------------------------------------------ tour*/
+/*------------------------------------------ tourpage*/
 
 .bg-tour-pictureleft {
-    background: url(../images/stage2.jpg);
+    background: url(../images/pyramid-stage.jpg);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
+    background-position: -100px -250px;
     background-size: 800px 1000px;
     background-color: rgba(52, 57, 63, 0.4);
     background-blend-mode: multiply;
@@ -710,9 +732,9 @@ a button {
 }
 
 .bg-tour-pictureright {
-    background: url(../images/stage2.jpg);
+    background: url(../images/stage1.jpg);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
+    background-position: -210px -80px;
     background-size: 800px 1000px;
     background-color: rgba(52, 57, 63, 0.4);
     background-blend-mode: multiply;
@@ -767,10 +789,10 @@ a button {
     font-size: 17px;
 }
 
-/*------------------------------------------ audio page*/
+/*------------------------------------------ audiopage*/
 
 .bg-audio-pictureleft {
-    background: url(../images/stage2.jpg);
+    background: url(../images/stage3.jpg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
     background-size: 800px 1000px;
@@ -779,7 +801,7 @@ a button {
 }
 
 .bg-audiosection-content {
-    background: url(../images/stage2.jpg);
+    background: url(../images/stage4.jpg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
     background-size: 800px 1000px;
@@ -788,7 +810,7 @@ a button {
 }
 
 .bg-audio-pictureright {
-    background: url(../images/stage2.jpg);
+    background: url(../images/stage5.jpg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
     background-size: 800px 1000px;
@@ -797,16 +819,16 @@ a button {
 }
 
 .audiofile-container {
-
     width: 300px;
     height: 300px;
     padding: 0;
     border-radius: 8px;
 }
 
-/*------------------------------------------ concerts page*/
+/*------------------------------------------ visualspage*/
 
-.bg-concerts-pictureleft {
+/*
+.bg-visuals-pictureleft {
     background: url(../images/stage2.jpg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
@@ -815,7 +837,8 @@ a button {
     background-blend-mode: multiply;
 }
 
-.bg-concertssection-content {
+
+.bg-visuals-pictureright {
     background: url(../images/stage2.jpg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
@@ -824,25 +847,44 @@ a button {
     background-blend-mode: multiply;
 }
 
-.bg-concerts-pictureright {
-    background: url(../images/stage2.jpg);
+
+*/
+
+.bg-visualssection-content {
+
+    /*
+    background: url(../images/stage7.jpg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
     background-size: 800px 1000px;
     background-color: rgba(52, 57, 63, 0.4);
     background-blend-mode: multiply;
+*/
+    background-color: #34393F;
+    border-radius: 8px;
 }
 
-.concerts-container {
+.BIGvisuals-container {
+    width: 600px;
+    height: 380px;
+    padding: 10px;
+}
 
-    width: 300px;
+#BIGvisuals-iframe {
+    border: 1px solid darkred;
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+}
+
+.visuals-container {
+    width: 100%;
     height: 300px;
     padding: 0;
     border-radius: 8px;
 }
 
-
-#concerts-iframe {
+#visuals-iframe {
     border: 1px solid darkred;
     border-radius: 8px;
     width: 100%;
