@@ -9,13 +9,13 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .halign {
@@ -23,8 +23,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 /*------------------------------ general adaptations*/
@@ -152,7 +152,6 @@ body {
     border-radius: 4px;
     height: 35px;
     padding: 5px;
-    margin-top: 10px;
     font-family: "Exo", sans-serif;
     font-size: 18px;
     font-weight: 300;
@@ -184,9 +183,10 @@ h2 {
     font-size: 16px;
     font-weight: 100;
     color: lightgreen;
+    text-align: center;
 }
 
-a button {
+a .enterbutton {
     font-family: "Orbitron", sans-serif;
     font-size: 15px;
     font-weight: bolder;
@@ -200,7 +200,7 @@ a button {
     font-weight: 100;
 }
 
-.intropage-backlinkbutton-container .hyperlinks button {
+.backlinkbutton {
 
     font-family: "Orbitron", sans-serif;
     font-size: 12px;
@@ -208,7 +208,6 @@ a button {
     padding-top: 4px;
     text-align: center;
     width: 180px;
-
 }
 
 /*------------------------------ welcomepage*/
@@ -230,7 +229,7 @@ a button {
     -webkit-box-shadow: 3px 3px 20px 2px #ccc;
 }
 
-.button-container button {
+.button-container .enterbutton {
     background: none;
     border-radius: 10px;
     border: 1px solid beige;
@@ -238,7 +237,7 @@ a button {
     width: 80px;
     height: 28px;
     -webkit-animation: pulse 8s infinite ease-in-out;
-            animation: pulse 8s infinite ease-in-out;
+    animation: pulse 8s infinite ease-in-out;
     -webkit-transition: color .8s ease-in-out;
     -o-transition: color .8s ease-in-out;
     transition: color .8s ease-in-out;
@@ -249,8 +248,12 @@ a button {
     width: 80%;
 }
 
-.hyperlinks:hover button {
+.enterbutton:hover {
     color: red;
+}
+
+.enterbutton {
+    width: 80px;
 }
 
 /*------------------------------------------ banner*/
@@ -266,12 +269,12 @@ a button {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 
 }
 
@@ -283,8 +286,8 @@ a button {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .list {
@@ -296,13 +299,13 @@ a button {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-animation: fadeup 2s 1s 1 forwards;
-            animation: fadeup 2s 1s 1 forwards;
+    animation: fadeup 2s 1s 1 forwards;
 }
 
 .listitems {
@@ -324,42 +327,42 @@ a button {
 
 .letterC {
     -webkit-animation: letterCmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
-            animation: letterCmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+    animation: letterCmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
 }
 
 .letterH {
     -webkit-animation: letterHmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
-            animation: letterHmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+    animation: letterHmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
 }
 
 .letterR {
     -webkit-animation: letterRmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
-            animation: letterRmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+    animation: letterRmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
 }
 
 .letterO {
     -webkit-animation: letterOmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
-            animation: letterOmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+    animation: letterOmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
 }
 
 .letterN {
     -webkit-animation: letterNmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
-            animation: letterNmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+    animation: letterNmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
 }
 
 .letterI {
     -webkit-animation: letterImove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
-            animation: letterImove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+    animation: letterImove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
 }
 
 .letterX {
     -webkit-animation: letterXmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
-            animation: letterXmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+    animation: letterXmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
 }
 
 .letterX2 {
     -webkit-animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
-            animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+    animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
 }
 
 /*------------------------------------------ keyframes*/
@@ -385,63 +388,63 @@ a button {
     }
     60% {
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     61% {
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     62% {
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     63% {
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     64% {
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     65% {
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     66% {
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     67% {
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     68% {
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     69% {
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     70% {
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     71% {
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     72% {
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     73% {
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     74% {
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     100% {
         opacity: 1.0;
@@ -457,63 +460,63 @@ a button {
     }
     60% {
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     61% {
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     62% {
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     63% {
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     64% {
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     65% {
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     66% {
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     67% {
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     68% {
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     69% {
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     70% {
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     71% {
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     72% {
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     73% {
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     74% {
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     100% {
         opacity: 1.0;
@@ -547,102 +550,102 @@ a button {
 @-webkit-keyframes letterCmove {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(-150px);
-                transform: translateX(-150px);
+        transform: translateX(-150px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(-150px);
-                transform: translateX(-150px);
+        transform: translateX(-150px);
     }
 }
 
 @keyframes letterCmove {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(-150px);
-                transform: translateX(-150px);
+        transform: translateX(-150px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(-150px);
-                transform: translateX(-150px);
+        transform: translateX(-150px);
     }
 }
 
 @-webkit-keyframes letterHmove {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(-100px);
-                transform: translateX(-100px);
+        transform: translateX(-100px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(-100px);
-                transform: translateX(-100px);
+        transform: translateX(-100px);
     }
 }
 
 @keyframes letterHmove {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(-100px);
-                transform: translateX(-100px);
+        transform: translateX(-100px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(-100px);
-                transform: translateX(-100px);
+        transform: translateX(-100px);
     }
 }
 
 @-webkit-keyframes letterRmove {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(-50px);
-                transform: translateX(-50px);
+        transform: translateX(-50px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(-50px);
-                transform: translateX(-50px);
+        transform: translateX(-50px);
     }
 }
 
 @keyframes letterRmove {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(-50px);
-                transform: translateX(-50px);
+        transform: translateX(-50px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(-50px);
-                transform: translateX(-50px);
+        transform: translateX(-50px);
     }
 }
 
@@ -669,136 +672,136 @@ a button {
 @-webkit-keyframes letterNmove {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(50px);
-                transform: translateX(50px);
+        transform: translateX(50px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(50px);
-                transform: translateX(50px);
+        transform: translateX(50px);
     }
 }
 
 @keyframes letterNmove {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(50px);
-                transform: translateX(50px);
+        transform: translateX(50px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(50px);
-                transform: translateX(50px);
+        transform: translateX(50px);
     }
 }
 
 @-webkit-keyframes letterImove {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(85px);
-                transform: translateX(85px);
+        transform: translateX(85px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(85px);
-                transform: translateX(85px);
+        transform: translateX(85px);
     }
 }
 
 @keyframes letterImove {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(85px);
-                transform: translateX(85px);
+        transform: translateX(85px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(85px);
-                transform: translateX(85px);
+        transform: translateX(85px);
     }
 }
 
 @-webkit-keyframes letterXmove {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(120px);
-                transform: translateX(120px);
+        transform: translateX(120px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(120px);
-                transform: translateX(120px);
+        transform: translateX(120px);
     }
 }
 
 @keyframes letterXmove {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(120px);
-                transform: translateX(120px);
+        transform: translateX(120px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(120px);
-                transform: translateX(120px);
+        transform: translateX(120px);
     }
 }
 
 @-webkit-keyframes letterX2move {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(160px);
-                transform: translateX(160px);
+        transform: translateX(160px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(160px);
-                transform: translateX(160px);
+        transform: translateX(160px);
     }
 }
 
 @keyframes letterX2move {
     0% {
         -webkit-transform: translateX(0px);
-                transform: translateX(0px);
+        transform: translateX(0px);
     }
     50% {
         opacity: 1.0;
         -webkit-transform: translateX(160px);
-                transform: translateX(160px);
+        transform: translateX(160px);
     }
     100% {
         opacity: 1.0;
         -webkit-transform: translateX(160px);
-                transform: translateX(160px);
+        transform: translateX(160px);
     }
 }
 
@@ -806,32 +809,32 @@ a button {
     0% {
         opacity: 0.0;
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     7% {
         opacity: 1.0;
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     40% {
         opacity: 1.0;
         -webkit-filter: blur(0px);
-                filter: blur(0px)
+        filter: blur(0px)
     }
     43% {
         opacity: 1.0;
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     50% {
         opacity: 0;
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     100% {
         opacity: 0;
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
 }
 
@@ -839,32 +842,32 @@ a button {
     0% {
         opacity: 0.0;
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     7% {
         opacity: 1.0;
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     40% {
         opacity: 1.0;
         -webkit-filter: blur(0px);
-                filter: blur(0px)
+        filter: blur(0px)
     }
     43% {
         opacity: 1.0;
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     50% {
         opacity: 0;
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     100% {
         opacity: 0;
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
 }
 
@@ -872,32 +875,32 @@ a button {
     0% {
         opacity: 0.0;
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     50% {
         opacity: 0.0;
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     57% {
         opacity: 1.0;
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     90% {
         opacity: 1.0;
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     93% {
         opacity: 1.0;
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     100% {
         opacity: 0;
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
 }
 
@@ -905,32 +908,32 @@ a button {
     0% {
         opacity: 0.0;
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     50% {
         opacity: 0.0;
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
     57% {
         opacity: 1.0;
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     90% {
         opacity: 1.0;
         -webkit-filter: blur(0px);
-                filter: blur(0px);
+        filter: blur(0px);
     }
     93% {
         opacity: 1.0;
         -webkit-filter: blur(1px);
-                filter: blur(1px);
+        filter: blur(1px);
     }
     100% {
         opacity: 0;
         -webkit-filter: blur(2px);
-                filter: blur(2px);
+        filter: blur(2px);
     }
 }
 
@@ -995,7 +998,7 @@ a button {
     background: linear-gradient(90deg, rgba(26, 178, 225, 1) 47.05%, rgba(231, 249, 255, 1) 54.00%, rgba(26, 178, 225, 1) 61.44%);
     background-size: 300% 300%;
     -webkit-animation: Bgr-body 15s ease infinite alternate;
-            animation: Bgr-body 15s ease infinite alternate;
+    animation: Bgr-body 15s ease infinite alternate;
 }
 
 /*------------------------------------------ footer*/
@@ -1040,7 +1043,7 @@ a button {
     width: 100%;
 }
 
-.intropage-backlinkbutton-container button {
+.backlinkbutton {
     background: none;
     border-radius: 10px;
     border: 1px solid beige;
@@ -1052,9 +1055,28 @@ a button {
     transition: color .8s ease-in-out;
 }
 
-.intropage-backlinkbutton-container button:hover {
+.backlinkbutton:hover {
     color: red;
 }
+
+
+
+/*
+.intropage-backlinkbutton-container .hyperlinks .backlinkbutton {
+    background: none;
+    border-radius: 10px;
+    border: 1px solid beige;
+    color: #00b8e6;
+    width: 160px;
+    height: 24px;
+    -webkit-transition: color .8s ease-in-out;
+    -o-transition: color .8s ease-in-out;
+    transition: color .8s ease-in-out;
+}
+
+.intropage-backlinkbutton-container:hover .hyperlinks .backlinkbutton {
+    color: red;
+}*/
 
 /*------------------------------------------ aboutpage*/
 
@@ -1130,7 +1152,7 @@ a button {
     display: block;
 }
 
-#datesindex {
+.datesindex {
     color: lightblue;
     font-size: 10px;
     border-radius: 4px;
@@ -1147,22 +1169,22 @@ a button {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .dates1 {
     position: absolute;
     width: 200px;
     -webkit-animation: dates1 12s infinite linear;
-            animation: dates1 12s infinite linear;
+    animation: dates1 12s infinite linear;
 }
 
 .dates2 {
     position: absolute;
     width: 200px;
     -webkit-animation: dates2 12s infinite linear;
-            animation: dates2 12s infinite linear;
+    animation: dates2 12s infinite linear;
 }
 
 .tourdates {
@@ -1253,14 +1275,18 @@ a button {
 }
 
 .BIGvisuals-container {
-    width: 600px;
-    height: 380px;
-    padding: 10px;
+    width: 900px;
+    height: 700px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-#BIGvisuals-iframe {
-    width: 100%;
-    height: 300px;
+.BIGvisuals-iframe {
+    width: 800px;
+    height: 500px;
+    border: none;
+
+
 }
 
 .visuals-container {
@@ -1269,7 +1295,7 @@ a button {
     padding: 0;
 }
 
-#visuals-iframe {
+.visuals-iframe {
     width: 300px;
     border: 0;
     height: 100px;
