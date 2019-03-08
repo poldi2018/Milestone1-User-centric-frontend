@@ -1,0 +1,892 @@
+/*------------------------------ helper classes*/
+
+.testframe {
+    border: 2px solid red;
+}
+
+.vhalign {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.halign {
+    display: flex;
+    justify-content: center;
+}
+
+/*------------------------------ general adaptations*/
+
+section {
+    padding-top: 100px;
+}
+
+.section-content {
+    width: 100%;
+    max-width: 370px;
+    border: 1px solid darkred;
+    border-radius: 8px;
+    height: 350px;
+}
+
+.outersection-content {
+    width: 100%;
+    max-width: 370px;
+    border: 1px solid darkred;
+    border-radius: 8px;
+    height: 480px;
+}
+
+.visusalsection-content {
+    width: 90%;
+    border: 1px solid darkred;
+    border-radius: 8px;
+    height: 400px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+.row-content {
+    height: 350px;
+}
+
+.row-footer {
+    height: 100px;
+}
+
+.min-height {
+    height: 300px;
+}
+
+/*------------------------------ color definitions*/
+
+body {
+    background: -webkit-linear-gradient(45deg, rgba(0, 46, 75, 1) 0.14%, rgba(0, 81, 114, 1) 99.61%);
+    background-size: 500% 500%;
+    -webkit-animation: Bgr-body 12s ease infinite;
+    height: 100vh;
+}
+
+.bg-color {
+
+    background: -webkit-linear-gradient(45deg, rgba(0, 46, 75, 1) 0.14%, rgba(0, 81, 114, 1) 99.61%);
+    background-size: 500% 500%;
+    -webkit-animation: Bgr-body 12s ease infinite;
+}
+
+/*------------------------------------------ fonts*/
+
+.bannerfont {
+    /*--------------------- bannerfont*/
+    font-family: 'monoton', sans-serif;
+    line-height: 0.95em;
+    font-size: 4em;
+    font-weight: 900;
+    background: linear-gradient(rgba(250, 46, 75, 0.9), rgba(0, 129, 182, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: -5px;
+}
+
+.mirrored {
+    /*---------- bannerfont*/
+    font-family: 'monoton', sans-serif;
+    line-height: 0.95em;
+    font-size: 4em;
+    font-weight: 900;
+    background: linear-gradient(rgba(250, 46, 75, 0.3), rgba(0, 129, 182, 0.3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transform: rotateX(180deg);
+    margin-top: -5px;
+}
+
+.headline {
+    background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 4px;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: "Exo", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: beige;
+
+}
+
+.audioheadline {
+    background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 4px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: lightblue;
+
+}
+
+.visualsheadline {
+    background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 4px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: lightblue;
+}
+
+#abouttextfont {
+    font-family: "Fredoka One", sans-serif;
+    color: beige;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+#abouttextfont::first-letter {
+    font-weight: bold;
+    font-size: 24px;
+    color: darkred;
+}
+
+.footerfont {
+
+    font-family: "Fredoka One", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: "Fredoka One", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: lightgreen;
+}
+
+a button {
+    font-family: "Orbitron", sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.menulistitem .hyperlinks {
+    font-family: "Alfa Slab One", sans serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.intropage-backlinkbutton-container .hyperlinks button {
+
+    font-family: "Orbitron", sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    padding-top: 4px;
+    text-align: center;
+    width: 180px;
+
+}
+
+/*------------------------------ welcomepage*/
+
+.welcomeframe {
+    height: 60vh;
+}
+
+.portrait {
+    background: url(../images/stage2.jpg);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    background-size: 250px 313px;
+    background-color: rgba(0, 46, 75, 0.8);
+    mix-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 3px 3px 20px 2px #ccc;
+}
+
+.button-container button {
+    background: none;
+    border-radius: 10px;
+    border: 1px solid beige;
+    color: grey;
+    width: 80px;
+    height: 28px;
+    animation: pulse 8s infinite ease-in-out;
+    transition: color .8s ease-in-out;
+
+}
+
+.button-container {
+    width: 80%;
+}
+
+.hyperlinks:hover button {
+    color: red;
+}
+
+/*------------------------------------------ banner*/
+
+.banner-container {
+    padding-top: 35px;
+    padding-bottom: 15px;
+    margin: 0;
+    border: 0px solid lightgreen;
+    border-radius: 15px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.letterbox {
+    width: 400px;
+    height: 110px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeup 2s 1s 1 forwards;
+}
+
+.listitems {
+    padding: 0;
+    margin: 0;
+    border: 0px solid green;
+    position: absolute;
+}
+
+.letterC,
+.letterH,
+.letterR,
+.letterN,
+.letterI,
+.letterX,
+.letterX2 {
+    opacity: 0;
+}
+
+.letterC {
+    animation: letterCmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
+
+.letterH {
+    animation: letterHmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
+
+.letterR {
+    animation: letterRmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
+
+.letterO {
+    animation: letterOmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
+
+.letterN {
+    animation: letterNmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
+
+.letterI {
+    animation: letterImove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
+
+.letterX {
+    animation: letterXmove 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
+
+.letterX2 {
+    animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
+
+/*------------------------------------------ keyframes*/
+
+@-webkit-keyframes Bgr-body {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes fadeup {
+    0% {
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    60% {
+        filter: blur(0px);
+    }
+    61% {
+        filter: blur(1px);
+    }
+    62% {
+        filter: blur(2px);
+    }
+    63% {
+        filter: blur(1px);
+    }
+    64% {
+        filter: blur(0px);
+    }
+    65% {
+        filter: blur(0px);
+    }
+    66% {
+        filter: blur(1px);
+    }
+    67% {
+        filter: blur(2px);
+    }
+    68% {
+        filter: blur(1px);
+    }
+    69% {
+        filter: blur(0px);
+    }
+    70% {
+        filter: blur(0px);
+    }
+    71% {
+        filter: blur(1px);
+    }
+    72% {
+        filter: blur(2px);
+    }
+    73% {
+        filter: blur(1px);
+    }
+    74% {
+        filter: blur(0px);
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        border-color: beige;
+    }
+    50% {
+        border-color: red;
+    }
+    100% {
+        border-color: beige;
+    }
+}
+
+@keyframes letterCmove {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        opacity: 1.0;
+        transform: translateX(-150px);
+    }
+    100% {
+        opacity: 1.0;
+        transform: translateX(-150px);
+    }
+}
+
+@keyframes letterHmove {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        opacity: 1.0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1.0;
+        transform: translateX(-100px);
+    }
+}
+
+@keyframes letterRmove {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        opacity: 1.0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1.0;
+        transform: translateX(-50px);
+    }
+}
+
+@keyframes letterOmove {
+    0% {}
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes letterNmove {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        opacity: 1.0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1.0;
+        transform: translateX(50px);
+    }
+}
+
+@keyframes letterImove {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        opacity: 1.0;
+        transform: translateX(85px);
+    }
+    100% {
+        opacity: 1.0;
+        transform: translateX(85px);
+    }
+}
+
+@keyframes letterXmove {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        opacity: 1.0;
+        transform: translateX(120px);
+    }
+    100% {
+        opacity: 1.0;
+        transform: translateX(120px);
+    }
+}
+
+@keyframes letterX2move {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        opacity: 1.0;
+        transform: translateX(160px);
+    }
+    100% {
+        opacity: 1.0;
+        transform: translateX(160px);
+    }
+}
+
+@keyframes dates1 {
+    0% {
+        opacity: 0.0;
+        filter: blur(2px);
+    }
+    7% {
+        opacity: 1.0;
+        filter: blur(0px);
+    }
+    40% {
+        opacity: 1.0;
+        filter: blur(0px)
+    }
+    43% {
+        opacity: 1.0;
+        filter: blur(1px);
+    }
+    50% {
+        opacity: 0;
+        filter: blur(2px);
+    }
+    100% {
+        opacity: 0;
+        filter: blur(2px);
+    }
+}
+
+@keyframes dates2 {
+    0% {
+        opacity: 0.0;
+        filter: blur(2px);
+    }
+    50% {
+        opacity: 0.0;
+        filter: blur(2px);
+    }
+    57% {
+        opacity: 1.0;
+        filter: blur(0px);
+    }
+    90% {
+        opacity: 1.0;
+        filter: blur(0px);
+    }
+    93% {
+        opacity: 1.0;
+        filter: blur(1px);
+    }
+    100% {
+        opacity: 0;
+        filter: blur(2px);
+    }
+}
+
+/*------------------------------------------ headerbar*/
+
+.headerbar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 70px;
+}
+
+.menucontainer {
+    width: 100%;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.menulist {
+    padding: 0;
+}
+
+.menulistitem {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 18px;
+    border: 2px solid grey;
+    border-radius: 18px;
+}
+
+#active-page {
+    color: red;
+}
+
+.menulistitem .hyperlinks {
+    color: beige;
+    text-decoration: none;
+    transition: color .6s ease-in-out;
+}
+
+.menulistitem:hover .hyperlinks {
+    color: red;
+}
+
+.beam {
+
+    padding: 0px;
+    height: 1px;
+    border-radius: 0px 2px 2px 0px;
+    color: #fff;
+    /*background: linear-gradient(-45deg, #EE7752, #e6f2ff, #23A6D5, #23D5AB);
+	background:repeating-linear-gradient(91deg, rgba(64,174,208,1) 0.00%, rgba(178,232,249,1) 40.57%, rgba(40,162,244,1) 99.96% );
+	background:linear-gradient(90deg, rgba(42,205,255,1) 47.05%, rgba(231,249,255,1) 54.00%, rgba(42,205,255,1) 61.44% );*/
+    background: linear-gradient(90deg, rgba(26, 178, 225, 1) 47.05%, rgba(231, 249, 255, 1) 54.00%, rgba(26, 178, 225, 1) 61.44%);
+    background-size: 300% 300%;
+    animation: Bgr-body 15s ease infinite alternate;
+}
+
+/*------------------------------------------ footer*/
+
+.socialpanel {
+    padding: 0px;
+}
+
+.socialicons {
+    list-style: none;
+    display: inline-block;
+    padding: 6px;
+}
+
+.sociallinks i {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    background-color: lightgrey;
+    color: #008ae6;
+    border-radius: 50%;
+    transition: color 0.35s ease-in-out;
+}
+
+.sociallinks i:hover {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.socialicons a:hover,
+.socialicons a:visited,
+.socialicons a:link,
+.socialicons a:active {
+    text-decoration: none;
+}
+
+.footer-container {
+    display: block;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.intropage-backlinkbutton-container button {
+    background: none;
+    border-radius: 10px;
+    border: 1px solid beige;
+    color: #00b8e6;
+    width: 160px;
+    height: 24px;
+    transition: color .8s ease-in-out;
+}
+
+.intropage-backlinkbutton-container button:hover {
+    color: red;
+}
+
+/*------------------------------------------ aboutpage*/
+
+.bg-about-pictureleft {
+    background: url(../images/about-pictureleft.jpg);
+    background-repeat: no-repeat;
+    background-position: -170px -40px;
+    background-size: 683px 1024px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+.bg-about-pictureright {
+    background: url(../images/about-pictureright.jpg);
+    background-repeat: no-repeat;
+    background-position: -250px -100px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+.bg-aboutsection-content {
+    background-color: rgba(180, 180, 180, 0.2);
+    background: url(../images/about-pictureright.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+.abouttext {
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    padding: 0;
+}
+
+/*------------------------------------------ tourpage*/
+
+.bg-tour-pictureleft {
+    background: url(../images/pyramid-stage.jpg);
+    background-repeat: no-repeat;
+    background-position: -100px -250px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+.bg-toursection-content {
+    background: url(../images/stage2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+.bg-tour-pictureright {
+    background: url(../images/stage1.jpg);
+    background-repeat: no-repeat;
+    background-position: -210px -80px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+.datescontainer {
+    width: 200px;
+    height: 250px;
+    border-radius: 4px;
+    color: beige;
+    display: block;
+}
+
+#datesindex {
+    color: lightblue;
+    font-size: 10px;
+    border-radius: 4px;
+    background-color: grey;
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+}
+
+.datesbox {
+    width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.dates1 {
+    position: absolute;
+    width: 200px;
+    animation: dates1 12s infinite linear;
+}
+
+.dates2 {
+    position: absolute;
+    width: 200px;
+    animation: dates2 12s infinite linear;
+}
+
+.tourdates {
+    padding: 0;
+    width: 200px;
+}
+
+.stations {
+    list-style: none;
+    padding: 0;
+    font-family: "Exo", sans-serif;
+    font-size: 17px;
+}
+
+/*------------------------------------------ audiopage*/
+
+.bg-audio-pictureleft {
+    background: url(../images/stage3.jpg);
+    background-repeat: no-repeat;
+    background-position: -200px -50px;
+    background-size: 800px 1200px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+.bg-audiosection-content {
+    background: url(../images/stage4.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+.bg-audio-pictureright {
+    background: url(../images/stage5.jpg);
+    background-repeat: no-repeat;
+    background-position: -500px -50px;
+    background-size: 1200px 800px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+.audiofile-container {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    border-radius: 8px;
+}
+
+/*------------------------------------------ visualspage*/
+
+/*
+.bg-visuals-pictureleft {
+    background: url(../images/stage2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+
+.bg-visuals-pictureright {
+    background: url(../images/stage2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+}
+
+
+*/
+
+.bg-visualssection-content {
+
+    /*
+    background: url(../images/stage7.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+*/
+    background-color: #34393F;
+    border-radius: 8px;
+}
+
+.BIGvisuals-container {
+    width: 600px;
+    height: 380px;
+    padding: 10px;
+}
+
+#BIGvisuals-iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.visuals-container {
+    width: 95%;
+    height: 300px;
+    padding: 0;
+}
+
+#visuals-iframe {
+    width: 300px;
+    border: 0;
+    height: 100px;
+    margin-top: 10px;
+}
+
+/*------------------------------------------ experimental*/
+
