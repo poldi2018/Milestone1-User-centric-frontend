@@ -1027,13 +1027,12 @@ a .enterbutton {
 
 .sociallinks i:hover {
     color: lightgreen;
-    text-decoration: none;
 }
 
-.socialicons a:hover,
-.socialicons a:visited,
-.socialicons a:link,
-.socialicons a:active {
+a:hover,
+a:visited,
+a:link,
+a:active {
     text-decoration: none;
 }
 
@@ -1059,24 +1058,6 @@ a .enterbutton {
     color: red;
 }
 
-
-
-/*
-.intropage-backlinkbutton-container .hyperlinks .backlinkbutton {
-    background: none;
-    border-radius: 10px;
-    border: 1px solid beige;
-    color: #00b8e6;
-    width: 160px;
-    height: 24px;
-    -webkit-transition: color .8s ease-in-out;
-    -o-transition: color .8s ease-in-out;
-    transition: color .8s ease-in-out;
-}
-
-.intropage-backlinkbutton-container:hover .hyperlinks .backlinkbutton {
-    color: red;
-}*/
 
 /*------------------------------------------ aboutpage*/
 
