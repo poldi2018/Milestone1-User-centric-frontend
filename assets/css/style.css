@@ -679,8 +679,8 @@ a button {
 .bg-about-pictureleft {
     background: url(../images/about-pictureleft.jpg);
     background-repeat: no-repeat;
-    background-position: -210px 0px;
-    background-size: 800px 1000px;
+    background-position: -170px -40px;
+    background-size: 683px 1024px;
     background-color: rgba(52, 57, 63, 0.4);
     background-blend-mode: multiply;
 }
@@ -794,8 +794,8 @@ a button {
 .bg-audio-pictureleft {
     background: url(../images/stage3.jpg);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 800px 1000px;
+    background-position: -200px -50px;
+    background-size: 800px 1200px;
     background-color: rgba(52, 57, 63, 0.4);
     background-blend-mode: multiply;
 }
@@ -812,8 +812,8 @@ a button {
 .bg-audio-pictureright {
     background: url(../images/stage5.jpg);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 800px 1000px;
+    background-position: -500px -50px;
+    background-size: 1200px 800px;
     background-color: rgba(52, 57, 63, 0.4);
     background-blend-mode: multiply;
 }
