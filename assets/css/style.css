@@ -1120,6 +1120,8 @@ a:active {
     height: 430px;
     overflow: auto;
     padding: 0;
+    border-radius: 8px;
+    background-color: rgba(52, 57, 63, 0.5);
 }
 
 .abouttext {
@@ -1127,6 +1129,8 @@ a:active {
     height: 300px;
     overflow: auto;
     padding: 0;
+    border-radius: 8px;
+    background-color: rgba(52, 57, 63, 0.5);
 }
 
 .abouttext-right {
@@ -1134,13 +1138,9 @@ a:active {
     height: 430px;
     overflow: auto;
     padding: 0;
+    border-radius: 8px;
+    background-color: rgba(52, 57, 63, 0.5);
 }
-
-
-
-
-
-
 
 /*------------------------------------------ tourpage*/
 
@@ -1229,15 +1229,6 @@ a:active {
 /*------------------------------------------ visualspage*/
 
 .bg-visualssection-content {
-
-    /*
-    background: url(../images/stage7.jpg);
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 800px 1000px;
-    background-color: rgba(52, 57, 63, 0.4);
-    background-blend-mode: multiply;
-*/
     background-color: #34393F;
     border-radius: 8px;
 }
@@ -1267,9 +1258,6 @@ a:active {
     height: 100px;
     margin-top: 10px;
 }
-
-
-
 
 /*------------------------------------------ audiopage*/
 
