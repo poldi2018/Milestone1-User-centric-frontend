@@ -158,6 +158,20 @@ body {
     color: lightblue;
 }
 
+#abouttextfont-left {
+    font-family: "Fredoka One", sans-serif;
+    color: beige;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+#abouttextfont-left::first-letter {
+    font-weight: bold;
+    font-size: 24px;
+    color: darkgreen;
+}
+
+
 #abouttextfont {
     font-family: "Fredoka One", sans-serif;
     color: beige;
@@ -170,6 +184,21 @@ body {
     font-size: 24px;
     color: darkred;
 }
+
+
+#abouttextfont-right {
+    font-family: "Fredoka One", sans-serif;
+    color: beige;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+#abouttextfont-right::first-letter {
+    font-weight: bold;
+    font-size: 24px;
+    color: darkorchid;
+}
+
 
 .footerfont {
 
@@ -228,35 +257,6 @@ a .enterbutton {
     background-repeat: no-repeat;
     -webkit-box-shadow: 3px 3px 20px 2px #ccc;
 }
-
-.button-container .enterbutton {
-    background: none;
-    border-radius: 10px;
-    border: 1px solid beige;
-    color: grey;
-    width: 80px;
-    height: 28px;
-    -webkit-animation: pulse 8s infinite ease-in-out;
-    animation: pulse 8s infinite ease-in-out;
-    -webkit-transition: color .8s ease-in-out;
-    -o-transition: color .8s ease-in-out;
-    transition: color .8s ease-in-out;
-
-}
-
-.button-container {
-    width: 80%;
-}
-
-.enterbutton:hover {
-    color: red;
-}
-
-.enterbutton {
-    width: 80px;
-}
-
-/*------------------------------------------ banner*/
 
 .banner-container {
     padding-top: 35px;
@@ -363,6 +363,33 @@ a .enterbutton {
 .letterX2 {
     -webkit-animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
     animation: letterX2move 4s cubic-bezier(0.8, 0, 0.2, 1) 2s alternate 3 forwards;
+}
+
+.button-container .enterbutton {
+    background: none;
+    border-radius: 10px;
+    border: 1px solid beige;
+    color: grey;
+    width: 80px;
+    height: 28px;
+    -webkit-animation: pulse 8s infinite ease-in-out;
+    animation: pulse 8s infinite ease-in-out;
+    -webkit-transition: color .8s ease-in-out;
+    -o-transition: color .8s ease-in-out;
+    transition: color .8s ease-in-out;
+
+}
+
+.button-container {
+    width: 80%;
+}
+
+.enterbutton:hover {
+    color: red;
+}
+
+.enterbutton {
+    width: 80px;
 }
 
 /*------------------------------------------ keyframes*/
@@ -1058,7 +1085,6 @@ a:active {
     color: red;
 }
 
-
 /*------------------------------------------ aboutpage*/
 
 .bg-about-pictureleft {
@@ -1089,12 +1115,32 @@ a:active {
     background-blend-mode: multiply;
 }
 
+.abouttext-left {
+    width: 300px;
+    height: 430px;
+    overflow: auto;
+    padding: 0;
+}
+
 .abouttext {
     width: 300px;
     height: 300px;
     overflow: auto;
     padding: 0;
 }
+
+.abouttext-right {
+    width: 300px;
+    height: 430px;
+    overflow: auto;
+    padding: 0;
+}
+
+
+
+
+
+
 
 /*------------------------------------------ tourpage*/
 
@@ -1180,6 +1226,51 @@ a:active {
     font-size: 17px;
 }
 
+/*------------------------------------------ visualspage*/
+
+.bg-visualssection-content {
+
+    /*
+    background: url(../images/stage7.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 800px 1000px;
+    background-color: rgba(52, 57, 63, 0.4);
+    background-blend-mode: multiply;
+*/
+    background-color: #34393F;
+    border-radius: 8px;
+}
+
+.BIGvisuals-container {
+    width: 900px;
+    height: 700px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.BIGvisuals-iframe {
+    width: 800px;
+    height: 500px;
+    border: none;
+}
+
+.visuals-container {
+    width: 95%;
+    height: 300px;
+    padding: 0;
+}
+
+.visuals-iframe {
+    width: 300px;
+    border: 0;
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+
+
 /*------------------------------------------ audiopage*/
 
 .bg-audio-pictureleft {
@@ -1216,71 +1307,5 @@ a:active {
     border-radius: 8px;
 }
 
-/*------------------------------------------ visualspage*/
-
-/*
-.bg-visuals-pictureleft {
-    background: url(../images/stage2.jpg);
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 800px 1000px;
-    background-color: rgba(52, 57, 63, 0.4);
-    background-blend-mode: multiply;
-}
-
-
-.bg-visuals-pictureright {
-    background: url(../images/stage2.jpg);
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 800px 1000px;
-    background-color: rgba(52, 57, 63, 0.4);
-    background-blend-mode: multiply;
-}
-
-
-*/
-
-.bg-visualssection-content {
-
-    /*
-    background: url(../images/stage7.jpg);
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 800px 1000px;
-    background-color: rgba(52, 57, 63, 0.4);
-    background-blend-mode: multiply;
-*/
-    background-color: #34393F;
-    border-radius: 8px;
-}
-
-.BIGvisuals-container {
-    width: 900px;
-    height: 700px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.BIGvisuals-iframe {
-    width: 800px;
-    height: 500px;
-    border: none;
-
-
-}
-
-.visuals-container {
-    width: 95%;
-    height: 300px;
-    padding: 0;
-}
-
-.visuals-iframe {
-    width: 300px;
-    border: 0;
-    height: 100px;
-    margin-top: 10px;
-}
 
 /*------------------------------------------ experimental*/
