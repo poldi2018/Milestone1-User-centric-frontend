@@ -97,7 +97,7 @@ Three audio files have been implemented to play on this page. Those files are me
 
 <h1> Testing and quality checks </h1>
 
-<b> Additional tools have been used to complete quality check tasks:
+<b> Additional tools have been used to complete quality check tasks: </b>
 
 Github autoprefixer to update browser vendor prefixes :white_check_mark: <br>
 Reviewed proper function on several browser systems and devices: <br>
