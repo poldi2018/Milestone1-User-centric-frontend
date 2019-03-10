@@ -150,9 +150,9 @@ Check by W3 CSS and HTML validators :white_check_mark: <br>
 
 After testing new code, the deployment was done first locally and then to github. Each functionality in one commit (mostly). Github pages is the only hosting service used so far.
 
-This project can be cloned locally by using the command
+This project can be viewed by following
 
-<em><b> git clone https://github.com/poldi2018/Milestone1-User-centric-frontend.git </b></em>
+<em><b> livelink: https://poldi2018.github.io/Milestone1-User-centric-frontend/ </b></em>
 
 
 <h1> Credits </h1> 
