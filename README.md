@@ -95,7 +95,7 @@ Two tracks of Chronixx on youtube platform are displayed and playable. Both ifra
 Three audio files have been implemented to play on this page. Those files are merely for demonstration.
 
 
-<h1> Testing and quality checks <h1>
+<h1> Testing and quality checks </h1>
 
 <b> Additional tools have been used to complete quality check tasks:
 
@@ -116,7 +116,7 @@ Unfortunately I could not manage to test on Android devices and Windows OS as a 
 
 <em><b> Please find the reports of W3 validators and screenshots of device testing in folder /QC. </b></em>
 
-<b> CHECKLIST OF GUIDELINES AND REQUIREMENTS: <b>
+<b> CHECKLIST OF GUIDELINES AND REQUIREMENTS: </b>
 
 4 or 5 static pages :white_check_mark: <br>
 Using grid system from Bootstrap :white_check_mark: <br>
