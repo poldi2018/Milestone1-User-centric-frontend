@@ -7,9 +7,7 @@ It is a demonstration of different techniques of HTML and CSS I have tried in my
 
 ![alt tag](QC/TEST_MAC_SAFARI_index.html.jpg "screenshot of index.html")
 
-![alt tag](QC/TEST_MAC_SAFARI_about.html.jpg "screenshot about.html")
-
-![alt tag](QC/TEST_MAC_SAFARI_audio.html.jpg "screenshot of audio.html")
+![alt tag](QC/TEST_MAC_SAFARI_about.html.jpg "screenshot of about.html")
 
 ![alt tag](QC/TEST_MAC_SAFARI_tour.html.jpg "screenshot of tour.html")
 
@@ -17,6 +15,7 @@ It is a demonstration of different techniques of HTML and CSS I have tried in my
 
 ![alt tag](QC/TEST_MAC_SAFARI_visuals.html_2.jpg "screenshot2 of visuals.html")
 
+![alt tag](QC/TEST_MAC_SAFARI_audio.html.jpg "screenshot of audio.html")
 
 <h1> UX </h1>
 
