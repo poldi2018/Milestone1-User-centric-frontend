@@ -5,6 +5,22 @@ It is a demonstration of different techniques of HTML and CSS I have tried in my
 
 <h1> Screenshots </h1>
 
+<h2> Mobile version</h2>
+
+![alt tag](QC/TEST_IPHONE_SAFARI_index.html.jpg "screenshot of index.html")
+
+![alt tag](QC/TEST_IPHONE_SAFARI_about.html.jpg "screenshot of about.html")
+
+![alt tag](QC/TEST_IPHONE_SAFARI_tour.html.jpg "screenshot of tour.html")
+
+![alt tag](QC/TEST_IPHONE_SAFARI_visuals.html.jpg "screenshot of visuals.html")
+
+![alt tag](QC/TEST_IPHONE_SAFARI_audio.html.jpg "screenshot of audio.html")
+
+
+
+<h2> Desktop version</h2>
+
 ![alt tag](QC/TEST_MAC_SAFARI_index.html.jpg "screenshot of index.html")
 
 ![alt tag](QC/TEST_MAC_SAFARI_about.html.jpg "screenshot of about.html")
@@ -16,6 +32,7 @@ It is a demonstration of different techniques of HTML and CSS I have tried in my
 ![alt tag](QC/TEST_MAC_SAFARI_visuals.html_2.jpg "screenshot2 of visuals.html")
 
 ![alt tag](QC/TEST_MAC_SAFARI_audio.html.jpg "screenshot of audio.html")
+
 
 <h1> UX </h1>
 
