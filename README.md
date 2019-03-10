@@ -62,7 +62,7 @@ Despite of using Bootstrap’s responsive system, the index.html is the only pag
 The body features an animated background consisting of a gradient. The moving aspect  is achieved by animating the background-position property.
 The portrait of the artist has been implemented with two different blend modes (mix-blend-mode and background-blend-mode).
 
-The Chronixx banner consists of multiple div’s (which contain each 2 div’s), all set to ‘display: absolute’ so they line up all after themselves. The letters are then set to opacity: 0; and are animated to spread out by translateX() property.
+The Chronixx banner consists of multiple divs (which contain each 2 divs), all set to ‘display: absolute’ so they line up all after themselves. The letters are then set to opacity: 0; and are animated to spread out by translateX() property.
 
 A mirror effect is realised by simply turning a copy of a letter around the x-axe by rotateX(180deg). Afterwards the opacity is reduced to get the mirror effect.
 
@@ -82,7 +82,8 @@ The footer is accessible on all four pages and carries the links to official pag
 <h2> TOUR.HTML </h2>
 
 Mobile version has only one column, the desktop version features three columns.
-The middle section displays the touring details. The related container carries two div’s which are on same position, each div contains one page of dates. Both div’s are animated in its opacity. When one div’s opacity is 1 the opacity of the other is set to zero. Also some blurring effect is applied just before the fade taking place.    
+The middle section displays the touring details. During testout of different things, I looked out for something which did not require javascript.
+The related container carries two divs which are on same position, each div contains one page of dates. Both divs are animated in its opacity. When one divs opacity is 1 the opacity of the other is set to zero (and vice). So they are toggled in its visibility. Also some blurring effect is applied just before the fade is taking place.    
 
 
 <h2> VISUALS.HTML </h2>
