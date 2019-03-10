@@ -1,4 +1,3 @@
-
 /*------------------------------ helper classes*/
 
 .testframe {
@@ -50,6 +49,13 @@ section {
     height: 480px;
 }
 
+.about-section-content-big {
+    width: 100%;
+    border: 1px solid darkred;
+    border-radius: 8px;
+    height: 450px;
+}
+
 .visusalsection-content {
     width: 90%;
     border: 1px solid darkred;
@@ -65,12 +71,8 @@ section {
     height: 350px;
 }
 
-.row-footer {
-    height: 100px;
-}
-
 .min-height {
-    height: 300px;
+    height: 500px;
 }
 
 /*------------------------------ color definitions*/
@@ -159,22 +161,8 @@ body {
     color: lightblue;
 }
 
-#abouttextfont-left {
-    font-family: "Fredoka One", sans-serif;
-    color: beige;
-    font-size: 14px;
-    font-weight: 100;
-}
-
-#abouttextfont-left::first-letter {
-    font-weight: bold;
-    font-size: 24px;
-    color: darkgreen;
-}
-
-
 #abouttextfont {
-    font-family: "Fredoka One", sans-serif;
+    font-family: "Exo", sans-serif;
     color: beige;
     font-size: 14px;
     font-weight: 100;
@@ -186,20 +174,18 @@ body {
     color: darkred;
 }
 
-
-#abouttextfont-right {
-    font-family: "Fredoka One", sans-serif;
+#abouttextfont-big {
+    font-family: "Exo", sans-serif;
     color: beige;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 100;
 }
 
-#abouttextfont-right::first-letter {
+#abouttextfont-big::first-letter {
     font-weight: bold;
     font-size: 24px;
-    color: darkorchid;
+    color: darkred;
 }
-
 
 .footerfont {
 
@@ -1088,20 +1074,11 @@ a:active {
 
 /*------------------------------------------ aboutpage*/
 
-.bg-about-pictureleft {
-    background: url(../images/about-pictureleft.jpg);
+.bg-about-picture-big {
+    background: url(../images/stage5.jpg);
     background-repeat: no-repeat;
-    background-position: -170px -40px;
-    background-size: 683px 1024px;
-    background-color: rgba(52, 57, 63, 0.4);
-    background-blend-mode: multiply;
-}
-
-.bg-about-pictureright {
-    background: url(../images/about-pictureright.jpg);
-    background-repeat: no-repeat;
-    background-position: -250px -100px;
-    background-size: 800px 1000px;
+    background-position: -250px -100px cover;
+    background-size: 1400px 933px;
     background-color: rgba(52, 57, 63, 0.4);
     background-blend-mode: multiply;
 }
@@ -1116,31 +1093,24 @@ a:active {
     background-blend-mode: multiply;
 }
 
-.abouttext-left {
-    width: 300px;
-    height: 430px;
-    overflow: auto;
-    padding: 0;
-    border-radius: 8px;
-    background-color: rgba(52, 57, 63, 0.5);
-}
-
 .abouttext {
-    width: 300px;
+    width: 320px;
     height: 300px;
     overflow: auto;
-    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 8px;
-    background-color: rgba(52, 57, 63, 0.5);
+    background-color: rgba(52, 57, 63, 0.7);
 }
 
-.abouttext-right {
-    width: 300px;
-    height: 430px;
+.abouttext-big {
+    width: 95%;
+    height: 400px;
     overflow: auto;
-    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 8px;
-    background-color: rgba(52, 57, 63, 0.5);
+    background-color: rgba(52, 57, 63, 0.7);
 }
 
 /*------------------------------------------ tourpage*/
@@ -1230,13 +1200,13 @@ a:active {
 /*------------------------------------------ visualspage*/
 
 .bg-visualssection-content {
-    background-color: #34393F;
+    background-color: rgba(52, 57, 63, 0.5);
     border-radius: 8px;
 }
 
 .BIGvisuals-container {
     width: 900px;
-    height: 700px;
+    height: 620px;
     padding-left: 15px;
     padding-right: 15px;
 }

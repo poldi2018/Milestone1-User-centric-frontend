@@ -74,7 +74,7 @@ The point of action to the user is marked by red pulsing frame of the enter butt
 The navigation bar on top of the screen remains fixed at all times. The currently visited site is marked with red letters and transitions to red when hovering the mouse on link.
 The header is optically separated from content section by a laser like beam which works exactly as the animated body background on index.html.
 
-The about text on mobile version is displayed in one column. The desktop version has two additional text columns. A background image is placed inside the div. A second layer is placed between text and background to make it easier to read the text.
+The about text on mobile version is displayed in one column. The desktop version has one big column spreading the whole screen. A background image is placed inside the div. A second layer is placed between text and background to make it easier to read the text.
 
 The footer is accessible on all four pages and carries the links to official pages social media, as well as a link to visit back the intro page.
 
@@ -136,7 +136,7 @@ After testing new code, the deployment was done first locally and then to github
 
 This project can be cloned locally by using the command
 
-<em><b> git clone https://github.com/poldi2018/Milestone1-User-centric-frontend </b></em>
+<em><b> git clone https://github.com/poldi2018/Milestone1-User-centric-frontend.git </b></em>
 
 
 <h1> Credits </h1> 
