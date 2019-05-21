@@ -1,3 +1,10 @@
+/* NOTE: changed two things on MAY21st:
+
+- removed animated background gradient from body due to high CPU usage. 
+- added additional position transform: translateX(0px); for letter O, as Safari meanwhile shows this bug.
+
+*/
+
 /*------------------------------ helper classes*/
 
 .testframe {
@@ -78,17 +85,12 @@ section {
 /*------------------------------ color definitions*/
 
 body {
-    background: -webkit-linear-gradient(45deg, rgba(0, 46, 75, 1) 0.14%, rgba(0, 81, 114, 1) 99.61%);
-    background-size: 500% 500%;
-    -webkit-animation: Bgr-body 12s ease infinite;
+    background-color: #003553;
     height: 100vh;
 }
 
 .bg-color {
-
-    background: -webkit-linear-gradient(45deg, rgba(0, 46, 75, 1) 0.14%, rgba(0, 81, 114, 1) 99.61%);
-    background-size: 500% 500%;
-    -webkit-animation: Bgr-body 12s ease infinite;
+    background-color: #003553;
 }
 
 /*------------------------------------------ fonts*/
@@ -364,7 +366,6 @@ a .enterbutton {
     -webkit-transition: color .8s ease-in-out;
     -o-transition: color .8s ease-in-out;
     transition: color .8s ease-in-out;
-
 }
 
 .button-container {
@@ -664,21 +665,31 @@ a .enterbutton {
 }
 
 @-webkit-keyframes letterOmove {
-    0% {}
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
     50% {
         opacity: 1.0;
     }
     100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
         opacity: 1.0;
     }
 }
 
 @keyframes letterOmove {
-    0% {}
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
     50% {
         opacity: 1.0;
     }
     100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
         opacity: 1.0;
     }
 }

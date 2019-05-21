@@ -3,6 +3,9 @@
 This project is about introduction of an artist, named Chronixx, to inform with background information, as well as upcoming tourdates, current songs from youtube and offering audiomaterial.
 It is a demonstration of different techniques of HTML and CSS I have tried in my labtime so far and combines them all together in this project.
 
+<em><b> livelink: <a href="https://poldi2018.github.io/Milestone1-User-centric-frontend/" target="_blank">https://poldi2018.github.io/Milestone1-User-centric-frontend/</a></b></em>
+
+
 <h1> Screenshots </h1>
 
 <h2> Mobile version</h2>
@@ -152,7 +155,7 @@ After testing new code, the deployment was done first locally and then to github
 
 This project can be viewed by following
 
-<em><b> livelink: https://poldi2018.github.io/Milestone1-User-centric-frontend/ </b></em>
+<em><b> livelink: <a href="https://poldi2018.github.io/Milestone1-User-centric-frontend/" target="_blank">https://poldi2018.github.io/Milestone1-User-centric-frontend/</a></b></em>
 
 
 <h1> Credits </h1> 
